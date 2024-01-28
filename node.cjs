@@ -1,19 +1,29 @@
-// npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-n eslint-plugin-prettier eslint-plugin-promise eslint-plugin-unused-imports prettier
-
 module.exports = {
-  env: {
-    es2020: true,
-    node: true,
-  },
-  extends: ['standard', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
-  plugins: ['unused-imports', '@typescript-eslint'],
+  extends: [
+    'standard',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'plugin:promise/recommended'
+  ],
+  plugins: [
+    'unused-imports',
+    '@typescript-eslint',
+    'promise'
+  ],
   rules: {
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': ['warn', { varsIgnorePattern: '_' }],
     'no-undef': 'off',
+    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/ban-ts-comment': 'warn',
     'prettier/prettier': [
       'warn',
       {
