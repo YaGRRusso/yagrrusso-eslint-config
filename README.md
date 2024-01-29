@@ -38,9 +38,9 @@ Bibliotecas utilizadas nas configurações para React:
 
 - @typescript-eslint/eslint-plugin
 - @typescript-eslint/parser
-- eslint
 - eslint-config-prettier
 - eslint-config-standard
+- eslint-import-resolver-typescript
 - eslint-plugin-import
 - eslint-plugin-jsx-a11y
 - eslint-plugin-prettier
@@ -49,19 +49,17 @@ Bibliotecas utilizadas nas configurações para React:
 - eslint-plugin-react-hooks
 - eslint-plugin-simple-import-sort
 - eslint-plugin-unused-imports
-- prettier
 
 ### Node
 Bibliotecas utilizadas nas configurações para Node:
 
 - @typescript-eslint/eslint-plugin
 - @typescript-eslint/parser
-- eslint
 - eslint-config-prettier
 - eslint-config-standard
+- eslint-import-resolver-typescript
 - eslint-plugin-import
 - eslint-plugin-prettier
 - eslint-plugin-promise
 - eslint-plugin-simple-import-sort
 - eslint-plugin-unused-imports
-- prettier
