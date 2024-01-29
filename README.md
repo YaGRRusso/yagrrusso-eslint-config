@@ -42,11 +42,13 @@ Bibliotecas utilizadas nas configurações para React:
 - eslint-config-prettier
 - eslint-config-standard
 - eslint-plugin-import
+- eslint-plugin-jsx-a11y
 - eslint-plugin-prettier
 - eslint-plugin-promise
-- eslint-plugin-jsx-a11y
 - eslint-plugin-react
 - eslint-plugin-react-hooks
+- eslint-plugin-simple-import-sort
+- eslint-plugin-unused-imports
 - prettier
 
 ### Node
@@ -60,4 +62,6 @@ Bibliotecas utilizadas nas configurações para Node:
 - eslint-plugin-import
 - eslint-plugin-prettier
 - eslint-plugin-promise
+- eslint-plugin-simple-import-sort
+- eslint-plugin-unused-imports
 - prettier
