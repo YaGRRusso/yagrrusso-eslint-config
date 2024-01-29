@@ -33,7 +33,7 @@ npm i -D eslint @yagrrusso/eslint-config
 ## Presets
 Importe um dos presets da lista abaixo para o seu projeto.
 
-### React/Next
+### React
 Bibliotecas utilizadas nas configurações para React:
 
 - @typescript-eslint/eslint-plugin
@@ -42,14 +42,12 @@ Bibliotecas utilizadas nas configurações para React:
 - eslint-config-prettier
 - eslint-config-standard
 - eslint-plugin-import
-- eslint-plugin-jsx-a11y
 - eslint-plugin-prettier
 - eslint-plugin-promise
+- eslint-plugin-jsx-a11y
 - eslint-plugin-react
 - eslint-plugin-react-hooks
-- eslint-plugin-unused-imports
 - prettier
-- eslint-config-next (NEXTJS)
 
 ### Node
 Bibliotecas utilizadas nas configurações para Node:
@@ -60,8 +58,6 @@ Bibliotecas utilizadas nas configurações para Node:
 - eslint-config-prettier
 - eslint-config-standard
 - eslint-plugin-import
-- eslint-plugin-n
 - eslint-plugin-prettier
 - eslint-plugin-promise
-- eslint-plugin-unused-imports
 - prettier
