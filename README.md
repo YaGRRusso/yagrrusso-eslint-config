@@ -39,7 +39,7 @@ Caso esteja em um monorepo, adicione as seguintes instruções no seu arquivo `.
     "settings": {
         "import/resolver": {
             "typescript": {
-                "project": ["DIRETÓRIO", "DO", "PACOTE"]
+                "project": ["DIRETÓRIO_DO_PACOTE"]
             }
         }
     }
