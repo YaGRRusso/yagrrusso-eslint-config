@@ -1,6 +1,6 @@
 {
   "name": "@yagrrusso/eslint-config",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "private": false,
   "description": "ESLint config for Javascript/Typescript projects",
   "keywords": [
@@ -33,7 +33,6 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^3.0.0"
   },
   "devDependencies": {

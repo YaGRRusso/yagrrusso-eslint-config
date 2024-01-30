@@ -30,6 +30,22 @@ npm i -D eslint @yagrrusso/eslint-config
 }
 ```
 
+## Monorepo
+
+Caso esteja em um monorepo, adicione as seguintes instruções no seu arquivo `.eslintrc.json` na raiz do seu projeto.
+```json
+{
+    // .eslintrc.json
+    "settings": {
+        "import/resolver": {
+            "typescript": {
+                "project": ["DIRETÓRIO", "DOS", "PACOTES"]
+            }
+        }
+    }
+}
+```
+
 ## Presets
 Importe um dos presets da lista abaixo para o seu projeto.
 
@@ -47,7 +63,6 @@ Bibliotecas utilizadas nas configurações para React:
 - eslint-plugin-promise
 - eslint-plugin-react
 - eslint-plugin-react-hooks
-- eslint-plugin-simple-import-sort
 - eslint-plugin-unused-imports
 
 ### Node
@@ -61,5 +76,4 @@ Bibliotecas utilizadas nas configurações para Node:
 - eslint-plugin-import
 - eslint-plugin-prettier
 - eslint-plugin-promise
-- eslint-plugin-simple-import-sort
 - eslint-plugin-unused-imports

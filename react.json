@@ -11,7 +11,6 @@
     "@typescript-eslint",
     "promise",
     "unused-imports",
-    "simple-import-sort",
     "import",
     "react",
     "react-hooks",
@@ -33,18 +32,20 @@
     "no-useless-constructor": "off",
     "unused-imports/no-unused-imports": "error",
     "@typescript-eslint/no-unused-vars": "off",
-    "simple-import-sort/exports": "warn",
-    "simple-import-sort/imports": [
+    "import/order": [
       "warn",
       {
         "groups": [
-          [
-            "^.",
-            "^@.",
-            "^@[^/]",
-            "^[.]{1,2}\/."
-          ]
-        ]
+          "index",
+          "sibling",
+          "parent",
+          "internal",
+          "external",
+          "builtin",
+          "object",
+          "type"
+        ],
+        "newlines-between": "always"
       }
     ],
     "no-unused-vars": [
