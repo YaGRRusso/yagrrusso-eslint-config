@@ -32,14 +32,14 @@ npm i -D eslint @yagrrusso/eslint-config
 
 ## Monorepo
 
-Caso esteja em um monorepo, adicione as seguintes instruções no seu arquivo `.eslintrc.json` na raiz do seu projeto.
+Caso esteja em um monorepo, adicione as seguintes instruções no seu arquivo `.eslintrc.json`.
 ```json
 {
     // .eslintrc.json
     "settings": {
         "import/resolver": {
             "typescript": {
-                "project": ["DIRETÓRIO", "DOS", "PACOTES"]
+                "project": ["DIRETÓRIO", "DO", "PACOTE"]
             }
         }
     }
