@@ -7,7 +7,8 @@
   "plugins": [
     "react",
     "react-hooks",
-    "jsx-a11y"
+    "jsx-a11y",
+    "react-refresh"
   ],
   "extends": [
     "./node.json",
@@ -16,7 +17,14 @@
     "plugin:jsx-a11y/recommended"
   ],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react-refresh/only-export-components": [
+      "warn",
+      {
+        "allowConstantExport": true
+      }
+    ]
   },
   "settings": {
     "react": {

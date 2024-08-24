@@ -64,6 +64,7 @@ Bibliotecas utilizadas nas configurações para React:
 - eslint-plugin-react
 - eslint-plugin-react-hooks
 - eslint-plugin-unused-imports
+- eslint-plugin-react-refresh
 
 ### Node
 Bibliotecas utilizadas nas configurações para Node:
