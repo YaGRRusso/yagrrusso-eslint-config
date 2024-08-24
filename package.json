@@ -1,6 +1,6 @@
 {
   "name": "@yagrrusso/eslint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "private": false,
   "description": "ESLint config for Javascript/Typescript projects",
   "keywords": [

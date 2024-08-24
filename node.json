@@ -5,6 +5,7 @@
     "sourceType": "module"
   },
   "plugins": [
+    "standard",
     "@typescript-eslint",
     "promise",
     "unused-imports",
